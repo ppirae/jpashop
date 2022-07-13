@@ -131,4 +131,9 @@ public class OrderRepository {
                 .setMaxResults(limit)
                 .getResultList();
     }
+
+//    //queryDSL
+//    public List<Order> findAll(OrderSearch orderSearch) {
+//
+//    }
 }
